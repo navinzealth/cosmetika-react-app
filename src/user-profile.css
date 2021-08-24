@@ -1,0 +1,42 @@
+.widget-title {position: relative;height: 50px;color: #fff;background-color: #6F6F6F;font-size: 16px;margin: 30px 0 20px;}
+.widget-title i {width: 50px;height: 50px;line-height: 50px;background-color: #a3247b;color: #fff;text-align: center;margin-right: 10px;}
+.widget-title i:after {content: '';position: absolute;border-right: 8px solid transparent;border-bottom: 0;border-top: 8px solid #a3247b;border-left: 8px solid transparent;
+                      left: 16px;bottom: -8px;z-index: 1;}
+.widget-block {margin-bottom: 10px;}
+.catalog li {margin-bottom: -1px;border: 1px solid #eaeaea;font-size: 16px;line-height: 24px;}
+.catalog li a {position: relative;display: block;padding: 12px 10px 12px 64px;}
+.catalog li:nth-child(odd) i {background: #a3247b;}
+.catalog i {background:#a3247b;}
+.catalog li a i {position: absolute;z-index: 1;top: -1px;bottom: -1px;left: -1px;width: 50px;font-size: 24px;line-height: 50px;text-align: center;color: #fff;}
+.catalog li a:hover i {background: #a3247b;}
+.catalog li a{ color:#000; font-size:14px;text-decoration: none;}
+.top-icon >i {border: 1px solid;border-radius: 50%;color:#a3247b;float: left;font-size: 18px;margin-right: 8px;padding: 8px 5px 5px;text-align: center;width: 36px;}
+.ico-text {color: #363636;font-size: 18px;line-height: 0;float: left;margin-top: 17px;}
+.ico-num {background-color: #a3247b;border-radius: 5px;color: #fff;font-size: 19px;
+	     font-weight: 700;float: right;padding: 3px 12px;text-align: center;}
+.top-icon {border-right: 1px solid #ccc;margin-bottom: 20px;}
+.box-border {padding: 20px 30px;background-color: #fff;border: 1px solid #eaeaea;margin-bottom: 30px;}
+.box-border.top-icon {padding: 8px 0;overflow: hidden;}
+.panel-table .panel-default {width: 98%;}
+.dashboard-table tr td{ font-size:15px;}
+.margin-top-30 {margin-top: 30px;}
+.btn-primary{ background-color:#006672;}
+.form-group{height:40px;}
+
+@media only screen and (max-width:500px){
+	.seller__registration__page {margin-top:0px;}
+	.seller__registration__heading{margin-bottom: 0;}
+	.open-dashboard-menu{float:right;margin-right:0 !important;}
+	.widget-block{display:none;}
+	.form-group {height: 65px;}
+	.order-row-order-heading-left{    width: 100%;}
+	.order-heading-order-place-date{width: 100%;}
+	.order-heading-order-place-date p{display:inline-block;width:50%;}
+	.order-heading-order-delivery-amount{width:100%;}
+	.order-heading-order-delivery-amount p{display:inline-block;width:50%;}
+	.order-heading-order-customername{width:100%;}
+	.order-heading-order-customername p{display:inline-block;width:50%;}
+	
+	
+	.order-row-order-heading-right{width:100%;text-align:left;margin-top: 15px;}
+}
